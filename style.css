@@ -1,0 +1,323 @@
+*{
+   text-decoration: none;
+   font-family: "Roboto", sans-serif;  
+}
+body{
+    width: 100vw;
+   min-height: 100vh;
+   overflow-x: hidden;
+}
+.navbar{
+    background: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    overflow: hidden;
+   
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+
+}
+.nav img{
+    width: 100px;
+}
+.nav img:hover{
+    transform: scale(1.15);
+    z-index: 5px;
+}
+.nav li{
+    display:inline-block;
+    margin-right: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+}
+nav li a{
+    color: white;
+    display: block;
+}
+.nav li a:hover {
+    color: red;
+
+}
+.nav button{
+    margin-right: 50px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    background: black;
+    border-color: rgba(250, 250, 250, 0);
+    border-width: 3px;
+}
+.nav button:hover{
+    border-color: red;
+    transform: scale(1.15);
+    z-index: 5px;
+}
+.into{
+    background: #ff9191;
+    margin-top: 2px;
+    height: 600px;
+    width: 1904px;
+    position: relative;
+}
+.intro {
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    color: white;   
+}
+.intro h1{
+    font-size: 55px;
+}
+.intro h1:hover{
+    transform: scale(1.01);
+    z-index: 2px;   
+}
+.intro button{
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(255, 0, 0, 0);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-color: white; 
+    padding: 16px 32px
+}
+.intro button a{
+    text-decoration: none;
+    color: white;
+}
+.into button:hover{
+    border-color: rgba(255, 255, 255, 0.507);
+}
+.movie{
+    height: 500px;
+    position: relative;
+    border-top: 5px  red;
+    
+}
+.movie h1{
+    color: rgb(0, 0, 0);
+    position: relative;
+    left:37%;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 20px;
+    letter-spacing: -2px;
+
+}
+.mbox img{
+    width:200px;
+    height:300px;
+    position: relative;;
+    margin-top: 28px;
+}
+.mbox{
+    display:inline;
+    margin-right: 50px;
+    margin-left: 60px;
+    position: relative; 
+    
+}
+.mbox img:hover{
+    transform: scale(1.1);
+    z-index: 3px;
+}
+.mbox h2{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 60px;
+}
+.mbox h3{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 375px;
+}
+.mbox h4{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 675px;
+    margin-top: 13px;
+}
+.mbox h5{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 995px;
+    margin-top: 13px;
+}
+.mbox h6{
+    position: absolute;
+    font-size: 15px;
+    margin-left: 1375px;
+    margin-top: 13px;
+}
+.mbox p{
+    position: absolute;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 1630px;
+    margin-top: 10px;
+}
+.comic{
+    position: relative;
+    width: 100vw;
+    height:400px;
+    background: #000;
+    margin-right: 20px;
+}
+.cintro{
+    position:absolute;
+    top: 15%;
+    left: 10%;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.cintro h1{
+    font-size: 40px;
+}
+.cintro button{
+    text-align: center;
+    background-color: #ff000000;
+    font-weight: bold;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 15px;
+    border-color: rgb(255, 252, 252);
+    padding: 16px 32px;
+
+     
+}
+.cintro button a{
+    text-decoration: none;
+    color: white;
+}
+.cintro button:hover{
+    border-color: rgba(255, 255, 255, 0.37);
+}
+.comicb{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    justify-content: center;
+    width: 57%;
+    height: 330px;
+    left: 22%;
+    top: 91%;
+}
+.cbox{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 27px;
+       
+}
+.cbox img{
+    width: 180px;
+}
+.cbox:hover{
+    transform: scale(1.1);
+}
+.news{
+    position: relative;
+    width: 100%;
+    height: 1600px;
+    margin-top: 18%;
+    border-bottom: 2px solid red;
+}
+.news h1{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 13.5%;
+}
+.updates{
+    position: absolute;
+    overflow: hidden;
+    width: 55%;
+    height: 1500px;
+    margin-top: 5%;
+    margin-left:12%;
+    
+}
+.hbox{
+    position: absolute;
+    width: 20%;
+    height: 740px;
+    margin-top: 6%;
+    margin-left:69%;
+    border-top: 3px solid gold;
+    border-bottom: 3px solid gold;
+}
+.up{
+    display: inline-block;
+    margin-top: 2%;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    padding: 2%;   
+    border-top: 2px solid grey;
+}
+.up img{
+    float: left;
+    width: 51%;
+    margin-right: 22px;
+}
+.up p{
+    position: relative;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.up p a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.up p a:hover{
+    color: red;
+}
+.mup{
+    margin-top:2%;
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid grey;  
+
+}
+.hbox p{
+    position: relative;
+    text-align: center;
+    margin-top:-15px;
+}
+.hbox h1{
+    position: relative;
+    text-align: center;
+    margin-left: 2%;
+}
+.mup img{
+    position: relative;
+    float: left;
+    width: 90px;
+    margin-top: 8%;
+    margin-right: 15px;
+}
+.mup p{
+    position: relative;
+    text-align: left;
+    margin-top: 15%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.mup p a{
+    color: black;
+}
+footer{
+    height: 400px;
+    background:black;
+    color: white;
+}
+
