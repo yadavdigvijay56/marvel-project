@@ -100,75 +100,61 @@ nav li a{
 .movie{
     height: 500px;
     position: relative;
-    border-top: 5px  red;
-    
+    background: rgba(0, 0, 0, 0.973);
+    box-shadow: 0 0 30px 15px rgb(255, 255, 255);
+    z-index: -50px;
 }
 .movie h1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     position: relative;
-    left:37%;
+    left:2%;
+    margin-top: 25px;
     font-size: 50px;
     font-weight: 600;
     margin-left: 20px;
     letter-spacing: -2px;
 
 }
-.mbox img{
-    width:200px;
-    height:300px;
-    position: relative;;
-    margin-top: 28px;
-}
-.mbox{
-    display:inline;
-    margin-right: 50px;
-    margin-left: 60px;
-    position: relative; 
+.movieb{
+    position: relative;
+    height: 400px;
+    overflow-y: auto;
+    display:flex;
     
 }
-.mbox img:hover{
+.mbox{
+    margin-right: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+.mbox :hover{
     transform: scale(1.05);
-    box-shadow: 0px 0px 3px 3px rgba(255, 0, 0, 0.582);
-    box-shadow: inherits: ;
-    z-index: 3px;
+}
+.movieb::-webkit-scrollbar {
+    width: 2vw;  
+}
+.movieb::-webkit-scrollbar-thumb{
+    background: rgba(129, 129, 129, 0.664);
+    border-radius: 50px;
+    box-sizing: 20px;
+}
+.movieb::-webkit-scrollbar-track{
+    background: rgba(0, 0, 0, 0);
+}
+
+.mbox img{
+    width:200px;
+    height:290px;
+    box-shadow: 0 0 16px 6px rgba(255, 255, 255, 0.692);
 }
 .mbox h2{
-    position: absolute;
-    font-size: 15px;
-    margin-left: 60px;
-}
-.mbox h3{
-    position: absolute;
-    font-size: 15px;
-    margin-left: 375px;
-}
-.mbox h4{
-    position: absolute;
-    font-size: 15px;
-    margin-left: 675px;
-    margin-top: 13px;
-}
-.mbox h5{
-    position: absolute;
-    font-size: 15px;
-    margin-left: 995px;
-    margin-top: 13px;
-}
-.mbox h6{
-    position: absolute;
-    font-size: 15px;
-    margin-left: 1375px;
-    margin-top: 13px;
-}
-.mbox p{
-    position: absolute;
-    font-size: 15px;
-    font-weight: bold;
-    margin-left: 1630px;
-    margin-top: 10px;
+    color: white;
+    font-size: 20px;
 }
 .comic{
     position: relative;
+    margin-top: 40px;
     width: 100vw;
     height:400px;
     background: #000;
@@ -204,13 +190,13 @@ nav li a{
     border-color: rgba(255, 255, 255, 0.37);
 }
 .comicb{
-    position: absolute;
+    position: relative;
     background: rgb(255, 255, 255);
     justify-content: center;
     width: 57%;
-    height: 330px;
+    height: 100px;
     left: 22%;
-    top: 91%;
+    top:-7%;
 }
 .cbox{
     display: inline-block;
@@ -235,8 +221,8 @@ nav li a{
     margin-top: 18%;
 }
 .news h1{
-    position: absolute;
-    margin-top: 2%;
+    position: relative;
+    margin-top: 15%;
     margin-left: 13.5%;
 }
 .updates{
@@ -244,14 +230,14 @@ nav li a{
     overflow: hidden;
     width: 55%;
     height: 1500px;
-    margin-top: 5%;
+    margin-top:1%;
     margin-left:12%;
 }
 .hbox{
     position: absolute;
     width: 20%;
     height: 740px;
-    margin-top: 6%;
+    margin-top: 2%;
     margin-left:69%;
     border-top: 3px solid gold;
     border-bottom: 3px solid gold;
@@ -320,8 +306,15 @@ nav li a{
 }
 
 .youtube{
+    position: relative;
     width: 100vw;
     height: 1000px;
+}
+.youtube h2{
+    position: relative;
+    font-size: 45px;
+    left: 12.7%;
+    color: #000000bd
 }
 .mainv iframe{
     position: relative;
@@ -351,11 +344,41 @@ nav li a{
 .vt h1{
     font-size: 70px;
 }
+.vt h3{
+    color: rgba(0, 0, 0, 0.596);
+    position:absolute;
+}
 .vt p{
     font-size: 22px;
     margin-right:60%;
     text-align: left;
     font-weight: 500;
+}
+.disney{
+    position: relative;
+    width: 100vw;
+    margin-top: 10%;
+}
+.ddetails {
+    position: absolute;
+    top: 15%;
+    left: 7%;
+    color: white; 
+}
+.ddetails button{
+    background: #00000000;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px;
+    border-color: white;
+}
+.ddetails button a{
+    color: white;
+}
+.ddetails button:hover{
+    border-color: #ffffff50;
 }
 footer{
     width: 100vw;
